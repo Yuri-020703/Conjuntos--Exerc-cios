@@ -1,24 +1,63 @@
-# 📚 Projeto: Controle de Alunos por Curso (HashSet em C#)
+# 🎓 Alunos por Curso - Projeto com HashSet em C#
 
-Este projeto simples foi desenvolvido com o objetivo de treinar o uso da coleção `HashSet<T>` em C#. Ele simula o controle de alunos inscritos em três cursos diferentes (A, B e C), permitindo que um mesmo aluno esteja em mais de um curso.
+Projeto simples de console criado para treinar **coleções do tipo HashSet** em C#. A ideia é simular a inscrição de alunos em três cursos diferentes (A, B e C), onde um mesmo aluno pode estar matriculado em mais de um.
 
-A principal ideia é aplicar conceitos de **conjuntos**, **remoção de duplicatas**, e **união de dados**, utilizando os recursos da linguagem de forma prática e didática.
+O programa coleta os códigos dos alunos e calcula quantos **alunos únicos** existem no total, ignorando duplicações automaticamente com o uso do `HashSet`.
 
-## 🚀 Funcionalidades
+---
 
-- Leitura de códigos de alunos (inteiros) inscritos em cada curso.
-- Permite que um aluno esteja em mais de um curso.
-- Armazena os dados em `HashSet<int>` para garantir que não haja duplicatas.
-- Realiza a união dos conjuntos para calcular o total de alunos únicos.
-- Exibe os códigos dos alunos únicos e a contagem total.
+## 💡 O que foi praticado?
 
-## 🛠️ Tecnologias Utilizadas
+- ✅ Uso de `HashSet<int>` para evitar dados repetidos
+- ✅ União de conjuntos
+- ✅ Entrada de dados via console
+- ✅ Estruturas de repetição e lógica de coleção
 
-- C# (.NET)
-- HashSet (System.Collections.Generic)
+---
 
-## 💡 Como Executar
+## 🖥️ Exemplo de Execução
+
+Quantos alunos no curso A? 2
+Digite os códigos:
+101
+102
+
+Quantos alunos no curso B? 3
+Digite os códigos:
+103
+101
+104
+
+Quantos alunos no curso C? 2
+Digite os códigos:
+102
+105
+
+Total de alunos únicos: 5
+
+yaml
+Copiar
+Editar
+
+---
+
+## 🚀 Como rodar o projeto
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/seu-usuario/conjuntos-hashset-csharp.git
+Abra o arquivo Conjuntos.sln no Visual Studio.
+
+Execute com Ctrl + F5 ou clique em Start.
+
+Insira os dados conforme o console pedir.
+
+🧠 Conceitos Envolvidos
+HashSet<T> do namespace System.Collections.Generic
+
+Operações de união e contagem de elementos únicos
+
+Separação de lógica por curso
+
+Boas práticas de estruturação simples no console
+
